@@ -1,0 +1,45 @@
+/* styles.css */
+body {
+  background-color: #f8f9fa;
+}
+.jumbotron {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 40px;
+}
+.jumbotron h1 {
+  color: #007bff;
+}
+.jumbotron p {
+  color: #6c757d;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.jumbotron .lead {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.jumbotron hr {
+  border-color: #d1d1d1;
+}
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+.btn-transparent {
+  background-color: transparent;
+  border-color: transparent;
+  color: #6f6f6f; /* Primary button text color */
+}
+
+.btn-transparent:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: #ffffff; /* Darker color for hover effect */
+  /* text-decoration: underline; Optional: Add underline on hover */
+}
